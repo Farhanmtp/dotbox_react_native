@@ -3,18 +3,14 @@ import { COLORS, SIZES, SHADOWS } from '../../../../constants';
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    // flexDirection: 'row',
-    // padding: SIZES.medium,
     marginBottom: SIZES.medium,
     backgroundColor: COLORS.white,
     borderRadius: SIZES.xSmall,
     width: '48%', 
   },
   contentContainer:{
-
+    paddingVertical: 6,
+    paddingHorizontal: 6
   },
   logoContainer: {
     width: '100%',
